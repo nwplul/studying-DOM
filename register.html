@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying DOM</title>
+    <script src="./scripts/register.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="content-box">
+            <h1>Crie sua conta</h1>
+
+            <div class="input-box">
+                <div class="input-email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="registerEmail">
+                    <span id="error-email"></span>
+                </div>
+
+                <div class="input-email">
+                    <label for="name">Nome</label>
+                    <input type="name" name="name" id="registerName">
+                    <span id="error-name"></span>
+                </div>
+
+                <div class="input-password">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="registerPassword">
+                    <span id="error-password"></span>
+                </div>
+
+                <div class="input-password">
+                    <label for="password">Confirmar senha</label>
+                    <input type="password" name="password" id="confirmPassword">
+                    <span id="error-confirm-password"></span>
+                </div>
+            </div>
+
+            <div class="login-btn">
+                <input type="button" value="REGISTRAR" onclick="validates()" id="register-btn">
+                <a href="index.html"><input type="button" value="JÁ TENHO UMA CONTA"></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
