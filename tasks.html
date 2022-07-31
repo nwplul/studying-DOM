@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying DOM</title>
+    <script src="./scripts/tasks.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="content-box">
+            <h1 class="task-text">Tarefas</h1>
+
+            <div class="input-box">
+                <div class="input-task">
+                    <input class="task" type="task" name="task" id="registerTask" placeholder="Adicionar tarefas...">
+                    <input type="button" value="ADD" onclick="submit()" id="add-btn">
+                    <span id="error-task"></span>
+                </div>
+
+                <div class="tasks" id="tasksContent">
+                    <label for=""></label>
+
+                    <!-- <input type="hidden" class="add-task" value="" id="show&hidden"> -->
+                </div>
+
+
+            </div>
+
+            <div class="login-btn">
+
+                <!-- <a href="index.html"><input type="button" value="JÁ TENHO UMA CONTA"></a> -->
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

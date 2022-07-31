@@ -74,6 +74,13 @@ input {
     float: right;
 }
 
+#add-btn {
+    background-color: #00d850;
+    color: #111014;
+    font-weight: 900;
+    float: right;
+}
+
 .error {
     border-color: red;
 }
@@ -81,4 +88,41 @@ input {
 .error-message {
     color: red;
 }
+
+.task {
+    width: 40vh;
+    flex-direction: column;
+    background-color: gray;
+    border-color: white;
+}
+
+.task-text {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.7rem;
+}
+
+/* .tasks {
+    margin-bottom: 1rem;
+} */
+
+.task-box {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+
+.add-task {
+    width: 100%;
+}
+
+.task-checkbox {
+    float: right;
+    margin-top: 0.1rem;
+}
+
 
